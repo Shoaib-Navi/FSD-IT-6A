@@ -1,3 +1,5 @@
+const fs = require('fs');
+const os = require("os");
 // import http from 'http';
 // const PORT=8000;
 
@@ -33,7 +35,7 @@
 
 
 
-const fs = require('fs');
+
 // fs.writeFile("./ad.txt","code is very good time pass",()=>{ });
 
 // fs.readFile("./ad.txt","utf-8",(err,result)=>{
@@ -63,4 +65,24 @@ const fs = require('fs');
 //  fs.unlinkSync("./ad.txt");
 
 
+// const data = fs.readFileSync("data.json","utf-8");
+// const parseData = JSON.parse(data);
+// console.log(parseData);
+
+
+// const newData = [
+//   { id: 1, name: "Gokddddddddddddddu" },
+//   { id: 2, name: "Vegssta" }
+// ];
+
+// fs.writeFileSync("data.json", JSON.stringify(newData, null,5));
+
+
+// console.log("plateform",os.platform()); 
+// console.log("Architecture",os.arch()); 
+// // console.log("CPU",os.cpus()); 
+// console.log("userInfo",os.userInfo()); 
+// console.log("Free main memory",os.freemem());
+// console.log("Total main memory",os.totalmem()); 
+console.log("uptime",os.uptime()); 
 

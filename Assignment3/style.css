@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+.navbar{
+    font-size: large;
+    background-color: #0C73EB;
+    padding: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    color: black;
+    width: 250px;
+    height: 340px;
+    padding: 5px;
+}
